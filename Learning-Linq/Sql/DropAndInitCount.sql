@@ -1,0 +1,5 @@
+﻿DELETE FROM Books;
+DELETE FROM Authors;
+
+DBCC CHECKIDENT ('Books', RESEED, 0);
+DBCC CHECKIDENT ('Authors', RESEED, 0);
