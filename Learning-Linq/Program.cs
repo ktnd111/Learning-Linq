@@ -52,7 +52,7 @@ internal class Program
     private static void RunLinqSamples()
     {
         // LINQのサンプルを実行
-        var sample = new Linq1();
-        sample.LearningLinq1();
+        var sample = new Linq0();
+        sample.LearningLinq0();
     }
 }
